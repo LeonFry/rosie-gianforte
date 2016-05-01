@@ -315,6 +315,9 @@ section h2 {
 	display: inline-block;
 	margin: 3px;
 }
+.answer {
+	margin-bottom: 40px;
+}
 /** Datepicker custom styles **/
 .datepicker table tr td.day:hover {
 	background-color: #3fe05d;
