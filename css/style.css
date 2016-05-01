@@ -64,7 +64,7 @@ p {
 	margin: 0;
 	text-align: center;
 }
-.phone-number p {
+.phone-number p, .phone-number a {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 700;
 	font-size: 15pt;
@@ -83,6 +83,7 @@ p {
 	margin: 0;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	text-align: center;
 }
 .main-menu a {
 	font-family: 'Dosis', sans-serif;
