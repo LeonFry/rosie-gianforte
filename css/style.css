@@ -8,35 +8,46 @@ h2 {
 	font-weight: 500;
 	color: #197fd3;
 	margin-bottom: 30px;
+	font-size: 40px;
 }
-p {
+h3 {
+	font-family: 'Dosis', 'Roboto', sans-serif;
+	margin-top: 0;
+}
+p, a {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
+	font-size: 16px;
+}
+p {
 	color: #000000;
 }
 .page-header {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 0;
-	text-align: center;
-	border: none;
-}
-.header-text h1, h2, h3 {
 	text-align: left;
+	border: none;
 }
 .header-text h1 {
 	margin-top: 45px;
-	display: inline-block;
 }
-.header-text h2 {
-	display: inline-block;
+.subhead {
+	font-weight: 200;
+	font-size: 25px;
+}
+.cta-bucket {
+	text-align: center;
 }
 .cta-button {
-	background-color: #a8d9f4;
+	background-color: #197fd3;
 	color: #ffffff;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 700;
 	margin-top: 30px;
+}
+.cta-button:hover {
+	background-color: #a8d9f4;
 }
 .logo-box {
 	background-image: url('../images/quality-movers_logo.png');
@@ -51,11 +62,12 @@ p {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin: 0;
+	text-align: center;
 }
 .phone-number p {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 700;
-	font-size: 19pt;
+	font-size: 15pt;
 	color: #197fd3;
 	display: block;
 }
@@ -70,6 +82,7 @@ p {
 	padding: 0;
 	margin: 0;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .main-menu a {
 	font-family: 'Dosis', sans-serif;
@@ -80,7 +93,6 @@ p {
 }
 .main-menu .btn {
 	background-color: #197fd3;
-	border-radius: 8p6;
 	color: #ffffff;
 }
 .main-menu .btn:hover {
@@ -125,15 +137,15 @@ p {
 	font-size: 20px;
 	padding: 20px;
 }
-.mobile-splash {
-	background-image: url("../images/rg-splash.jpg");
-	background-size: cover;
-}
 .mobile-dropdown-menu .btn {
 	border: 0;
 	border-radius: 8px;
 	background-color: #ffffff;
-
+}
+.mobile-splash {
+	background-image: url("../images/rg-splash.jpg");
+	background-size: cover;
+	background-position: center;
 }
 .mobile-splash .container-fluid {
 	background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 60%);
@@ -144,20 +156,20 @@ p {
 .mobile-splash h2 {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 30px;
 	color: #ffffff;
+	text-align: center;
 	text-shadow: 1px 1px #000000;
-	padding: 15px;
-	margin-top: 100px;
-	margin-bottom: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .jumbo-splash {
 	background-image: url("../images/rg-splash.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	border-top: solid 5px #197fd3;
+	background-position: center;
 	padding-bottom: 0;
-	height: 400px;
+	padding-top: 0;
 }
 .jumbo-splash h2 {
 	font-family: 'Dosis', sans-serif;
@@ -174,12 +186,9 @@ p {
 	background: -webkit- linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 90%);
 	background: -o- linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 90%);
 }
-.splash-text {
-	position: relative;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+.splash-text  h2 {
+	margin: 0;
+	padding: 150px;
 }
 .quote-box {
 	background-color: #197fd3;
@@ -197,7 +206,7 @@ p {
 .image-box {
 	overflow: hidden;
 	border-radius: 6px;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 .info-image {
@@ -262,6 +271,7 @@ section h2 {
 	background-color: #197fd3;
 	border-top: solid 30px #e8e8e8;
 	padding: 20px;
+	text-align: center;
 }
 .foot-logo {
 	background-image: url('../images/quality-movers_logo-white.png');
@@ -278,6 +288,9 @@ section h2 {
 	list-style: none;
 	color: #ffffff;
 	font-family: 'Dosis', sans-serif;
+}
+.foot-address {
+	text-align: left;
 }
 .foot-address-mobile ul {
 	text-align: center;
