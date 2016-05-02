@@ -49,6 +49,9 @@ p {
 .cta-button:hover {
 	background-color: #a8d9f4;
 }
+.cta-button-wide {
+	width: 100%;
+}
 .logo-box {
 	background-image: url('../images/quality-movers_logo.png');
 	background-size: contain;
@@ -268,9 +271,31 @@ section h2 {
 	background-image: url('../images/quality-movers_logo-white.png');
 	background-size: fill;
 }
+.form-field {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.feedback-input {
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #a0a0a0;
+	border-radius: 8px;
+}
+.feedback-input:hover {
+	border: solid 2px #a8d9f4;
+}
+.feedback-input:focus {
+	border: solid 2px #197fd3;
+	outline: none;
+}
+.form-submit-button {
+	background: none;
+	border: none;
+}
 .footer {
 	background-color: #197fd3;
-	border-top: solid 30px #e8e8e8;
+	margin-top: 50px;
 	padding: 20px;
 	text-align: center;
 }
