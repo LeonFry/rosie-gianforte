@@ -348,6 +348,19 @@ section h2 {
 .spacer-5rem {
 	margin: 5rem;
 }
+.form-container {
+	position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: visible;
+}
+.form-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 /** Datepicker custom styles **/
 .datepicker table tr td.day:hover {
 	background-color: #3fe05d;
